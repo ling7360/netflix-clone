@@ -1,0 +1,161 @@
+@media (min-width: 415px) {
+    .profileScreen {
+        color: #fff;
+    }
+
+    .profileScreen_body {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem auto;
+        max-width: 40vw;
+        max-height: 70vh;
+        padding: 2rem;
+    }
+
+    .profileScreen_body h1 {
+        font-size: 3rem;
+        font-weight: 400;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #f0f0f0;
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+
+    .profileScreen_info {
+        display: flex;
+    }
+
+    .profileScreen_details h2 {
+        background-color: #0d7e80;
+        padding: 0.5rem;
+        margin: 0.25rem 1rem;
+        font-size: 1rem;
+        padding-left: 1rem;
+        text-align: left;
+        height: 2rem;
+        line-height: 2rem;
+    }
+
+    .profileScreen_plans h3 {
+        padding-left: 1.75rem;
+        margin: 1.75rem auto 0.5rem auto;
+        text-align: left;
+        font-size: 1.25rem;
+    }
+
+    .profileScreen_details {
+        color: #fff;
+        margin: 0.5rem 0 1rem 1.25rem;
+        flex: 1;
+    }
+
+    .profileScreen_info img {
+        margin-top: 0.75rem;
+        height: 5.5rem;
+    }
+
+    .profileScreen_signOut,
+    .profileScreen_goHome {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        width: 95%;
+        height: 3rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        margin: 1.25rem;
+        margin: 0.5rem 1rem 0.25rem;
+        outline-width: 0;
+    }
+
+    .profileScreen_signOut {
+        background-color: #e50914;
+        border: 1px solid #e50914;
+        color: #fff;
+    }
+
+    .profileScreen_goHome {
+        background-color: transparent;
+        border: 1px solid #58a6a2;
+        /* color: #0d7e80; */
+        color: #58a6a2;
+        
+        
+    }
+}
+
+@media (max-width: 414px) {
+    .profileScreen {
+        height: 100vh;
+        color: #fff;
+        background-color: #355874;
+    }
+
+    .profileScreen_body {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin: 10rem auto;
+        max-width: 93vw;
+
+        background-color: #00000039;
+        border: 1px #fff solid;
+        border-radius: 5%;
+        padding: 3rem;
+    }
+
+    .profileScreen_body h1 {
+        font-size: 4.5rem;
+        font-weight: 400;
+        border-bottom: 1px solid #282c2d;
+        margin-bottom: 1.5rem;
+    }
+
+    .profileScreen_info {
+        display: flex;
+    }
+
+    .profileScreen_details h2 {
+        background-color: #57a69f;
+        border-radius: 2rem;
+        padding: 1rem;
+        margin: 0 1rem;
+        font-size: 1.75rem;
+        padding-left: 1.5rem;
+        text-align: left;
+        height: 2rem;
+        line-height: 2rem;
+    }
+
+    .profileScreen_plans h3 {
+        padding-left: 1.5rem;
+        margin-top: 4rem;
+        text-align: left;
+        font-size: 1.75rem;
+    }
+
+    .profileScreen_details {
+        color: #fff;
+        margin-left: 1.5rem;
+        flex: 1;
+    }
+
+    .profileScreen_signOut {
+        padding: 0.75rem 1.5rem;
+        font-size: 1.5rem;
+        width: 100%;
+        height: 4rem;
+        color: #fff;
+        background-color: #e50914;
+        border-radius: 2rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        margin-top: 1.5rem;
+    }
+
+    .profileScreen_info img {
+        margin-top: 0.75rem;
+        height: 7.5rem;
+    }
+}

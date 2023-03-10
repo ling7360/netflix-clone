@@ -1,15 +1,14 @@
-import { React, useEffect, useState } from 'react';
+import { React } from 'react';
 import requests from '../../api/Requests';
-import Banner from '../Banner/Banner';
-import Nav from '../Nav/Nav';
-import classes from "./HomeScreen.module.css";
-import Row from '../Rows/Row';
+import Banner from '../../components/Banner/Banner';
+import Nav from '../../components/Nav/Nav';
+import Row from '../../components/Rows/Row';
 
 function HomeScreen() {
 
     return (
-        <div className={classes.homeScreen}>
-            <Nav />
+        <div className='homeScreen'>
+            {/* <Nav /> */}
             <Banner />
             <Row
                 title='NETFLIX ORIGINALS'

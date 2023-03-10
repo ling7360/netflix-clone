@@ -1,0 +1,159 @@
+@media (min-width: 415px) {
+    .loginScreen_logo {
+        position: fixed;
+        top: 0;
+        left: 1.5rem;
+        width: 5rem;
+        object-fit: contain;
+    }
+
+    .loginScreen_body {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 45rem;
+        z-index: 1;
+        color: #fff;
+        padding: 1.25rem;
+        text-align: center;
+    }
+
+    .loginScreen_body h1,
+    h2,
+    h3,
+    .loginScreen_input {
+        margin-bottom: 1.25rem;
+        text-align: center;
+    }
+
+    .loginScreen_body h1 {
+        font-size: 4.25rem;
+        line-height: 4.25rem;
+        font-weight: 00;
+    }
+
+    .loginScreen_body h2 {
+        font-size: 1.7rem;
+        font-weight: 400;
+    }
+
+    .loginScreen_body h3 {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    .loginScreen_input form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .loginScreen_input form input {
+        outline: none;
+        width: 61%;
+        margin: 0;
+        padding: 0 0 0 2rem;
+        height: 100%;
+        /* border: 1px solid rgb(88, 166, 162); */
+        border: none;
+        border-top-left-radius: 2.5rem;
+        border-bottom-left-radius: 2.5rem;
+    }
+
+    .loginScreen_getStarted {
+        font-size: 1.75rem;
+        color: #fff;
+        background-color: rgb(87, 145, 165);
+        border: 1px solid rgb(88, 166, 162);
+        border-top-right-radius: 2.5rem;
+        border-bottom-right-radius: 2.5rem;
+        cursor: pointer;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 38%;
+    }
+}
+
+@media (max-width: 414px) {
+    .loginScreen_logo {
+        position: fixed;
+        top: 0;
+        left: 1.5rem;
+        width: 5rem;
+        object-fit: contain;
+    }
+
+    .loginScreen_body {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 45rem;
+        z-index: 1;
+        color: #fff;
+        padding: 1.25rem;
+        text-align: center;
+    }
+
+    .loginScreen_body h1,
+    h2,
+    h3,
+    .loginScreen_input {
+        margin-bottom: 1.25rem;
+        text-align: center;
+    }
+
+    .loginScreen_body h1 {
+        font-size: 4.25rem;
+        line-height: 4.25rem;
+        font-weight: 00;
+    }
+
+    .loginScreen_body h2 {
+        font-size: 1.7rem;
+        font-weight: 400;
+    }
+
+    .loginScreen_body h3 {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    .loginScreen_input form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loginScreen_input form input {
+        padding-left: 1rem;
+        outline: none;
+        height: 3rem;
+        width: 61%;
+        border: 1px solid rgb(88, 166, 162);
+        max-width: 61%;
+        border-top-left-radius: 2.5rem;
+        border-bottom-left-radius: 2.5rem;
+    }
+
+    .loginScreen_getStarted {
+        padding: 1.125rem 1.25rem;
+        font-size: 1.75rem;
+        color: #fff;
+        background-color: rgb(87, 145, 165);
+        border: 1px solid rgb(88, 166, 162);
+        border-top-right-radius: 2.5rem;
+        border-bottom-right-radius: 2.5rem;
+        cursor: pointer;
+        font-weight: 500;
+        margin-left: 0.125rem;
+        width: 38%;
+    }
+}

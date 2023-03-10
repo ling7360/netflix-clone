@@ -1,0 +1,31 @@
+.Filter {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #b9b9b9;
+}
+
+.IptOuter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 28px;
+    border: none;
+    border-radius: 12px;
+    margin: 6px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.SearchInput {
+    height: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.SearchIcon {
+    color: crimson;
+}

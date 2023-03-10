@@ -2,11 +2,9 @@ import React, { useEffect, useState } from 'react';
 import axios from '../../api/axios';
 import './Row.css';
 
-// 此处直接解构
 const Row = ({ title, fetchUrl, isLargeRow = false }) => {
 
     const [movies, setMovies] = useState([]);
-
     const base_url = "https://image.tmdb.org/t/p/original/"
 
     // This is also the local axios

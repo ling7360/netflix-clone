@@ -1,0 +1,100 @@
+@media (min-width: 415px) {
+    .planScreen_plan {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        margin-left: 0.25rem;
+        opacity: 0.8;
+    }
+
+    .planScreen_plan:hover {
+        opacity: 1;
+    }
+
+    .planScreen_plan button {
+        font-size: 1rem;
+        line-height: 1rem;
+        height: 2.5rem;
+        padding: 0 1rem;
+        color: #000;
+        background-color: #fff;
+        outline: none;
+        border: #0d7e80 1px solid;
+        cursor: pointer;
+        width: 9rem;
+        margin: 1rem 0;
+    }
+
+    .planScreen_plan--disabled button {
+        background-color: #9b9b9b !important;
+    }
+
+    .planScreen p {
+        margin: 0 1rem 1rem 1.75rem;
+        font-size: 1.25rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px #9b9b9b solid;
+    }
+
+    .planScreen_info h5 {
+        font-size: 1rem;
+        line-height: 1rem;
+        margin: 1rem auto 0 0;
+    }
+
+    .planScreen_info h6 {
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+        font-weight: 400;
+        margin: 0.5rem auto 0 0;
+    }
+}
+
+@media (max-width: 414px) {
+    .planScreen_plan {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem;
+        opacity: 0.8;
+    }
+
+    .planScreen_plan:hover {
+        opacity: 1;
+    }
+
+    .planScreen_plan button {
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        height: 5.5rem;
+        padding: 0 1rem;
+        color: #fff;
+        background-color: #57a69f;
+        outline: none;
+        border: #57a69f;
+        border-radius: 2rem;
+        cursor: pointer;
+        width: 15rem;
+        margin-top: 1rem;
+    }
+
+    .planScreen_plan--disabled button {
+        background-color: #9b9b9b !important;
+    }
+
+    .planScreen p {
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .planScreen_info h5 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .planScreen_info h6 {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
