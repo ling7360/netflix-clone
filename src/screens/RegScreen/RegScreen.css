@@ -1,0 +1,116 @@
+@media (min-width:415px) {
+
+    .regScreen {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 20%;
+        max-width: 20rem;
+        margin: 0 auto;
+        background-color: #00000039;
+        border: 1px #fff solid;
+        border-radius: 5%;
+        padding: 2rem;
+    }
+
+    .regScreen h2 {
+        color: #fff;
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    .regScreen form {
+        display: grid;
+        flex-direction: column;
+        height: 30rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .regScreen form input {
+        background-color: #fff;
+        outline: none;
+        height: 3rem;
+        border-radius: 0.3rem;
+        border: none;
+        padding: 0.3rem 1rem;
+    }
+
+    .regScreen button {
+        font-size: 1rem;
+        color: #fff;
+        border-radius: 2rem;
+        font-weight: 600;
+        cursor: pointer;
+        margin: 0.25rem 0 1rem 0;
+        outline-width: 0;
+    }
+
+    .regScreen_link {
+        background-color: #e50914;
+        border: 1px solid #e50914;
+    }
+
+    .regScreen_back {
+        background-color: #5791a5;
+        border: 1px solid #58a6a2;
+    }
+}
+
+@media (max-width:414px) {
+
+    .regScreen {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 20%;
+        max-width: 20rem;
+        margin: 0 auto;
+        background-color: #00000039;
+        border: 1px #fff solid;
+        border-radius: 5%;
+        padding: 2rem;
+
+    }
+
+    .regScreen h2 {
+        color: #fff;
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    .regScreen form {
+        display: grid;
+        flex-direction: column;
+        height: 30rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .regScreen form input {
+        background-color: #fff;
+        outline: none;
+        height: 3rem;
+        border-radius: 0.3rem;
+        border: none;
+        padding: 0.3rem 1rem;
+    }
+
+    .regScreen button {
+        font-size: 1rem;
+        color: #fff;
+        border-radius: 2rem;
+        font-weight: 600;
+        cursor: pointer;
+        margin: 0.25rem 0 1rem 0;
+        outline-width: 0;
+    }
+
+    .regScreen_link {
+        background-color: #e50914;
+        border: 1px solid #e50914;
+    }
+
+    .regScreen_back {
+        background-color: #5791a5;
+        border: 1px solid #58a6a2;
+    }
+}

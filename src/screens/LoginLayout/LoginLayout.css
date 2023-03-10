@@ -1,0 +1,34 @@
+@media (min-width: 415px) {
+    .loginScreen {
+        width: 100%;
+        background:
+            url("https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/07a35bd8-7c17-44a6-be45-ce3a7772ea52/CA-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg") center no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .loginScreen_gradient {
+        width: 100%;
+        height: 100vh;
+        background:
+            radial-gradient(#3558748f 0%, #355874a1 81%, #355874);
+
+    }
+
+}
+
+@media (max-width: 414px) {
+    .loginScreen {
+        background:
+            url("https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/07a35bd8-7c17-44a6-be45-ce3a7772ea52/CA-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg") center no-repeat;
+        background-size: cover;
+    }
+
+    .loginScreen_gradient {
+        width: 100%;
+        z-index: 1;
+        height: 100vh;
+        background:
+            radial-gradient(#3558748f 0%, #355874a1 81%, #355874);
+    }
+}
